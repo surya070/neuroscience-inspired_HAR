@@ -65,7 +65,7 @@ Output: Action Class (UCF101)
 
 ---
 
-## **Future Work :- **
+## **Future Work :-**
 
 * Cross-dataset validation (HMDB51, Kinetics)
 * Incorporating temporal transformers
