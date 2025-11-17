@@ -1,41 +1,25 @@
-# 🚀 Neuroscience-Inspired Multi-Module Deep Learning Framework for Human Action Recognition
+#  Neuroscience-Inspired Multi-Module Deep Learning Framework for Human Action Recognition
 
 > **Predictive Coding × Micro-Movement Encoding × Context Fusion**
 > A biologically-motivated, interpretable, and robust HAR pipeline achieving **72.8% Top-1 accuracy** on UCF101.
 
----
-
-<div align="center">
-
-### 🔥 **PCM • MME • CFN — A Three-Module Human-Inspired Architecture**
-
-</div>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Deep%20Learning-Keras%20%2F%20TensorFlow-orange?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Computer%20Vision-YOLOv8%20Pose-blue?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Dataset-UCF101-green?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Model-Interpretable-yellow?style=for-the-badge"/>
-</p>
-
----
 
 ## 📌 **Overview**
 
 Humans understand actions by **predicting missing motion**, noticing **micro-movements**, and incorporating **scene context**.
 This project brings those neuroscience ideas into a real deep-learning pipeline:
 
-### ✅ **Predictive Completion Module (PCM)**
+### 1) **Predictive Completion Module (PCM)**
 
 * BiLSTM predicts **occluded or missing joints**
 * Inspired by **predictive coding** in the brain
 
-### ✅ **Micro-Movement Encoder (MME)**
+### 2) **Micro-Movement Encoder (MME)**
 
 * Residual Conv1D blocks detect **tiny spatio-temporal differences**
 * Helps classify subtle actions (dribbling vs passing)
 
-### ✅ **Context Fusion Network (CFN)**
+### 3) **Context Fusion Network (CFN)**
 
 * Fuses **pose** + **scene** features with attention
 * Adds semantic context (ball, bat, water, environment)
@@ -51,7 +35,7 @@ This project brings those neuroscience ideas into a real deep-learning pipeline:
 | **Macro Recall**    | **0.722** |
 | **Macro F1 Score**  | **0.722** |
 
-🎯 Competitive with vanilla RGB models while being **interpretable**, **modular**, and **bio-inspired**.
+Competitive with vanilla RGB models while being **interpretable**, **modular**, and **bio-inspired**.
 
 ---
 
@@ -81,7 +65,7 @@ Output: Action Class (UCF101)
 
 ---
 
-## 🧪 **Future Work :- **
+## **Future Work :- **
 
 * Cross-dataset validation (HMDB51, Kinetics)
 * Incorporating temporal transformers
@@ -89,5 +73,3 @@ Output: Action Class (UCF101)
 * Real-time deployment optimizations
 
 ---
-
-e!
